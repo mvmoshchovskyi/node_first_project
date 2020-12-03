@@ -1,17 +1,13 @@
 module.exports = {
     checkUserValidity: (req, res, next) => {
         try {
-            const user = req.body
-            const isLogged = false
-
+            const user = req.body;
             if (!user.email || !user.password) {
-                throw new Error('user is not valid')
+                throw new Error('user is not valid');
             }
-
-            req.login=isLogged
-            next()
+            next();
         } catch (e) {
-            res.json(e.message);
+            res.status(400).json(e.message);
         }
     }
-}
+};

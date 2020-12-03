@@ -1,8 +1,10 @@
-const dataBase = require('../dataBase/users')
+const data = require('../dataBase/dataBase');
+
+const { users } = data;
 
 module.exports = {
-    findUser: () => dataBase,
-    insertUser: (user) => dataBase.push(user),
-    findUserById: (user_id) => dataBase[user_id],
-    deleteUserById:(user_id)=>dataBase[user_id]
-}
+    findUser: () => users,
+    insertUser: (user) => users.push(user),
+    findUserById: (email) => users.find((user) => user.email === email),
+    deleteUserById: (id) => users.filter((user) => user.id.toString() !== id),
+};

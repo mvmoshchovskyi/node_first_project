@@ -1,13 +1,13 @@
 module.exports = {
     checkProductValidity: (req, res, next) => {
         try {
-            const product = req.body
+            const product = req.body;
             if (!product.name || !product.price || !product.description || !product.brand) {
-                throw new Error('product is not valid')
+                throw new Error('product is not valid');
             }
-            next()
+            next();
         } catch (e) {
-            res.json(e.message)
+            res.status(400).json(e.message);
         }
     }
-}
+};

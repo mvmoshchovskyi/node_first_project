@@ -1,8 +1,10 @@
-const dataBase = require('../dataBase/product')
+const data = require('../dataBase/dataBase');
+
+const { products } = data;
 
 module.exports = {
-    findProduct: () => dataBase,
-    insertProduct: (product) => dataBase.push(product),
-    findProductById: (product_id) => dataBase[product_id],
-    deleteProductById:(product_id) => dataBase[product_id]
-}
+    findProduct: () => products,
+    insertProduct: (product) => products.push(product),
+    findProductById: (id) => products.find((product) => product.id === id),
+    deleteProductById: (id) => products.filter((product) => product.id !== id)
+};
