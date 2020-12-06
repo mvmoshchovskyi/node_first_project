@@ -1,35 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09b877f2-33f6-4e89-a8bb-f0675bb8fc22" name="Default Changelist" comment="resolve task4">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/node_first_project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson4/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson4/controllers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson4/controllers/user.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson4/dataBase/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson4/dataBase/models/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson4/middlewares/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson4/middlewares/user.middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson4/routes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson4/routes/user.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson4/services/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson4/services/user.service.js" afterDir="false" />
+    <list default="true" id="09b877f2-33f6-4e89-a8bb-f0675bb8fc22" name="Default Changelist" comment="lint">
       <change beforePath="$PROJECT_DIR$/.eslintrs.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/1800/Ivan.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/1800/Olga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/2000/Dima" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/2000/Ira" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson2/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson2/views/main.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson2/views/p1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson2/views/users.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +38,7 @@
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.eslint" value="" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
@@ -102,7 +76,11 @@
       <workItem from="1607078782730" duration="5373000" />
       <workItem from="1607178722439" duration="882000" />
       <workItem from="1607243754855" duration="9887000" />
-      <workItem from="1607258516995" duration="504000" />
+      <workItem from="1607258516995" duration="970000" />
+      <workItem from="1607272278998" duration="2980000" />
+      <workItem from="1607275297195" duration="742000" />
+      <workItem from="1607276057295" duration="440000" />
+      <workItem from="1607276516113" duration="268000" />
     </task>
     <task id="LOCAL-00001" summary="resolve task3">
       <created>1607015595968</created>
@@ -111,7 +89,28 @@
       <option name="project" value="LOCAL" />
       <updated>1607015595968</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="resolve task4">
+      <created>1607259225206</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607259225206</updated>
+    </task>
+    <task id="LOCAL-00003" summary="resolve task 4">
+      <created>1607259345163</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607259345163</updated>
+    </task>
+    <task id="LOCAL-00004" summary=" task 4">
+      <created>1607275764911</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607275764911</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,7 +132,11 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="resolve task3" />
     <MESSAGE value="resolve task4" />
-    <option name="LAST_COMMIT_MESSAGE" value="resolve task4" />
+    <MESSAGE value="resolve task 4" />
+    <MESSAGE value="resolved task 4" />
+    <MESSAGE value=" task 4" />
+    <MESSAGE value="lint" />
+    <option name="LAST_COMMIT_MESSAGE" value="lint" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
