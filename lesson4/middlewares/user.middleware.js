@@ -1,4 +1,4 @@
-const db = require('../dataBase').getInstance();
+const userService = require('../services/user.service');
 
 module.exports = {
 
@@ -21,28 +21,20 @@ module.exports = {
     checkEmail: async (req, res, next) => {
         try {
             const { email } = req.body;
-            const UserModel = db.getModel('User');
-            const findEmail = await UserModel.findAll({
-                where: {
-                    email
-                }
-            });
-            if (findEmail.length) throw new Error('This user is already registered');
+            const users = await userService.getAllUsers();
+            const findEmail = users.find((user) => user.email === email);
+            if (findEmail) throw new Error('User with this email already  exist');
             next();
         } catch (e) {
-            res.status(400)
-                .json(e.message);
+            res.json(e.message);
         }
     },
 
     checkUserExist: async (req, res, next) => {
         try {
             const { userId } = req.params;
-            const UserModel = db.getModel('User');
-            const findUser = await UserModel.findAll({
-                where: { id: userId },
-            });
-            if (!findUser.length) throw new Error('This user is not registered.');
+            const user = await userService.getUserById(userId);
+            if (!user.length) throw new Error('User is not exist ');
             next();
         } catch (e) {
             res.json(e.message);
